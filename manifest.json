@@ -1,0 +1,19 @@
+{
+  "short_name": "Mentor",
+  "name": "Mentor Academia",
+  "description": "Portal acadêmico mobile-first para alunos e administradores de um seminário teológico.",
+  "icons": [
+    {
+      "src": "mentor.png",
+      "sizes": "929x767",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#000000",
+  "theme_color": "#015227",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "./"
+}

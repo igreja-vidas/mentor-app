@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mentor</title>
+    <script>
+      // GitHub Pages não conhece as rotas do app (/mentor-academia/alunos etc.).
+      // Guardamos o endereço pedido e voltamos para o app, que abre a página certa.
+      try { sessionStorage.setItem('mentor-redirect', location.pathname + location.search + location.hash); } catch (e) {}
+      var base = '/mentor-academia/';
+      location.replace(location.pathname.indexOf(base) === 0 ? base : '/');
+    </script>
+  </head>
+  <body></body>
+</html>

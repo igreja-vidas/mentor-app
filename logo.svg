@@ -1,0 +1,46 @@
+<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0, 10)">
+    <!-- Heads of the mentoring figures -->
+    <circle cx="240" cy="110" r="18" fill="#015227" />
+    <circle cx="280" cy="145" r="12" fill="#7eb538" />
+    
+    <!-- Body curves -->
+    <path d="M 235,125 C 210,145 200,185 240,210 C 230,190 220,165 242,145 Z" fill="#015227" />
+    <path d="M 238,135 C 220,165 210,210 245,230 C 238,205 235,175 243,155 Z" fill="#015227" />
+    <path d="M 241,128 C 228,148 215,200 250,235 C 215,190 230,150 241,128 Z" fill="#015227" />
+    
+    <!-- Mentor figure sweeping back curve -->
+    <path d="M 240,120 C 190,160 210,220 248,252 C 215,215 205,175 240,120 Z" fill="#015227" />
+    
+    <!-- Student figure curve -->
+    <path d="M 280,153 C 305,175 300,210 252,250 C 265,230 292,192 280,153 Z" fill="#7eb538" />
+    
+    <!-- Center stem -->
+    <path d="M 248,252 C 242,215 258,195 248,175 C 255,195 245,215 252,250 Z" fill="#7eb538" />
+    <path d="M 220,240 C 240,225 250,210 248,252 Z" fill="#015227" />
+    
+    <!-- Open book, left dark green page -->
+    <path d="M 245,255 C 210,250 160,215 125,210 L 155,170 C 195,180 230,215 245,232 Z" fill="#015227" />
+    
+    <!-- Open book, right light green page -->
+    <path d="M 255,255 C 290,250 340,215 375,210 L 345,170 C 305,180 270,215 255,232 Z" fill="#7eb538" />
+    
+    <!-- Book pages edge outlines at bottom -->
+    <path d="M 125,215 C 165,220 215,257 245,257" stroke="#015227" stroke-width="4" fill="none" stroke-linecap="round" />
+    <path d="M 125,220 C 165,225 215,262 245,262" stroke="#015227" stroke-width="3" fill="none" stroke-linecap="round" />
+    <path d="M 375,215 C 335,220 285,257 255,257" stroke="#7eb538" stroke-width="4" fill="none" stroke-linecap="round" />
+    <path d="M 375,220 C 335,225 285,262 255,262" stroke="#7eb538" stroke-width="3" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Brand Text -->
+  <text x="50%" y="340" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="70" fill="#015227" letter-spacing="4">MENTOR</text>
+  
+  <!-- Divider lines -->
+  <line x1="95" y1="380" x2="228" y2="380" stroke="#015227" stroke-width="2.5" />
+  <!-- Leaf shape in center -->
+  <path d="M 250,368 C 243,371 240,378 250,388 C 260,378 257,371 250,368 Z" fill="#7eb538" />
+  <line x1="272" y1="380" x2="405" y2="380" stroke="#015227" stroke-width="2.5" />
+  
+  <!-- Subtitle text -->
+  <text x="50%" y="425" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="20" fill="#015227" letter-spacing="0.5">Ministério, Ensino, Teologia e Orientação</text>
+</svg>
