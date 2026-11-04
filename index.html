@@ -27,9 +27,13 @@
       try {
         var r = sessionStorage.getItem('mentor-redirect');
         if (r) { sessionStorage.removeItem('mentor-redirect'); history.replaceState(null, '', r); }
+        else if (/[?&](v|r)=\d+/.test(location.search)) {
+          var u = new URL(location.href); u.searchParams.delete('v'); u.searchParams.delete('r');
+          history.replaceState(null, '', u.pathname + u.search + u.hash);
+        }
       } catch (e) {}
     </script>
-    <script type="module" crossorigin src="/mentor-app/assets/index-CO3d14Qb.js"></script>
+    <script type="module" crossorigin src="/mentor-app/assets/index-C0CIep2p.js"></script>
     <link rel="stylesheet" crossorigin href="/mentor-app/assets/index-DvKo8tDy.css">
   </head>
   <body>
